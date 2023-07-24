@@ -17,3 +17,5 @@ bool nas::pack_tracking_area_update_reject(srslte::byte_buffer_t* nas_buffer, ui
 
 * For service attach reject : https://github.com/srsran/srsRAN_4G/blob/release_20_04_2/srsepc/src/mme/nas.cc
 bool nas::pack_service_reject(srslte::byte_buffer_t* nas_buffer, uint8_t emm_cause)
+
+Default code : LIBLTE_MME_EMM_CAUSE_UE_SECURITY_CAPABILITIES_MISMATCH
