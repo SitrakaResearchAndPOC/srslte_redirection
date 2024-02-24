@@ -1,5 +1,48 @@
 # srslte_redirection : checkout 0ec49a7
  wget https://codeload.github.com/srsran/srsRAN_4G/tar.gz/refs/tags/release_20_04_2
+
+## Installation 
+Apt install inspired at : https://docs.srsran.com/projects/4g/en/next/app_notes/source/pi4/source/index.html  
+```  
+sudo apt-get install build-essential cmake libfftw3-dev libmbedtls-dev libboost-program-options-dev libconfig++-dev libsctp-dev  
+```
+```
+apt-get install git  
+```
+```
+sudo apt-get install libuhd-dev libuhd3.15.0 uhd-host  
+```
+```
+/usr/lib/uhd/utils/uhd_images_downloader.py  
+```
+```
+https://github.com/srsran/srsRAN_4G/tree/release_20_04_2  
+```
+```
+mkdir build  
+```
+```
+```
+cd build  
+```
+```
+cmake ..  
+```
+```
+make -j4  
+```
+```
+make install  
+```
+```
+ldconfig  
+```
+```
+srslte_install_configs.sh service
+```
+
+
+
 ## code version is based at :
 https://github.com/srsran/srsRAN_4G/tree/release_20_04_2  
   
