@@ -19,8 +19,10 @@ sudo apt-get install libuhd-dev libuhd3.15.0 uhd-host
 https://github.com/srsran/srsRAN_4G/tree/release_20_04_2  
 ```
 ```
-mkdir build  
+cd release_20_04_2
 ```
+```
+mkdir build  
 ```
 ```
 cd build  
