@@ -55,12 +55,12 @@ https://github.com/srsran/srsRAN_4G/tree/release_20_04_2
 
 * For all reject code : https://github.com/srsran/srsRAN_4G/blob/release_20_04_2/lib/include/srslte/asn1/liblte_mme.h 
 
-* For tracking reject :  https://github.com/srsran/srsRAN_4G/blob/release_20_04_2/srsepc/src/mme/nas.cc (default code is IMPLICITLY_DETACHED)
+* For tracking reject :  https://github.com/srsran/srsRAN_4G/blob/release_20_04_2/srsepc/src/mme/nas.cc (default code is 10 IMPLICITLY_DETACHED)
 bool nas::pack_tracking_area_update_reject(srslte::byte_buffer_t* nas_buffer, uint8_t emm_cause) </br>
 This function is called at handle_tracking_area_update_request
 * For service attach reject : https://github.com/srsran/srsRAN_4G/blob/release_20_04_2/srsepc/src/mme/nas.cc
 bool nas::pack_service_reject(srslte::byte_buffer_t* nas_buffer, uint8_t emm_cause)</br>
-This function is called at handle_service_request
+This function is called at handle_service_request)</br>
 Default code : LIBLTE_MME_EMM_CAUSE_UE_SECURITY_CAPABILITIES_MISMATCH
 
 
