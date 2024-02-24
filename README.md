@@ -16,7 +16,10 @@ sudo apt-get install libuhd-dev libuhd3.15.0 uhd-host
 /usr/lib/uhd/utils/uhd_images_downloader.py  
 ```
 ```
-https://github.com/srsran/srsRAN_4G/tree/release_20_04_2  
+wget  https://github.com/srsran/srsRAN_4G/archive/refs/tags/release_20_04_2.tar.gz
+```
+```
+tar -xvf release_20_04_2.tar.gz
 ```
 ```
 cd release_20_04_2
