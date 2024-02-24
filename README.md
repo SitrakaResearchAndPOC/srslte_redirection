@@ -22,7 +22,7 @@ wget  https://github.com/srsran/srsRAN_4G/archive/refs/tags/release_20_04_2.tar.
 tar -xvf release_20_04_2.tar.gz
 ```
 ```
-cd release_20_04_2
+cd srsRAN_4G-release_20_04_2
 ```
 ```
 mkdir build  
