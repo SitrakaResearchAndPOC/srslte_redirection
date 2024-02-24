@@ -52,11 +52,6 @@ srslte_install_configs.sh service
 https://github.com/srsran/srsRAN_4G/tree/release_20_04_2  
   
   
-* For redirection search is_csfb : https://github.com/srsran/srsRAN_4G/blob/release_20_04_2/srsenb/src/stack/rrc/rrc.cc
-
-* Documentation for configuration csfb : 
-https://github.com/DreamNik/srsLTE/commits?author=laf0rge  
-https://github.com/srsran/srsRAN_4G/issues/358  
 
 * For all reject code : https://github.com/srsran/srsRAN_4G/blob/release_20_04_2/lib/include/srslte/asn1/liblte_mme.h 
 
@@ -66,5 +61,10 @@ This function is called at handle_tracking_area_update_request
 * For service attach reject : https://github.com/srsran/srsRAN_4G/blob/release_20_04_2/srsepc/src/mme/nas.cc
 bool nas::pack_service_reject(srslte::byte_buffer_t* nas_buffer, uint8_t emm_cause)</br>
 This function is called at handle_service_request
-
 Default code : LIBLTE_MME_EMM_CAUSE_UE_SECURITY_CAPABILITIES_MISMATCH
+
+
+* For redirection search is_csfb : https://github.com/srsran/srsRAN_4G/blob/release_20_04_2/srsenb/src/stack/rrc/rrc.cc
+* Documentation for configuration csfb : 
+https://github.com/DreamNik/srsLTE/commits?author=laf0rge  
+https://github.com/srsran/srsRAN_4G/issues/358  
